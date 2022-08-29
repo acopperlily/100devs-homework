@@ -38,11 +38,7 @@
 // }
 
 // Wildin'
-const modifyMultiply = (s, i, n) => [s
-    .split(' ')[i] + '-']
-    .join()
-    .repeat(n)
-    .slice(0, -1);
+const modifyMultiply = (s, i, n) => (s.split(' ')[i] + '-').repeat(n).slice(0, -1);
 
 // Test cases
 console.log(modifyMultiply('This is a string', 3, 5)); // string-
