@@ -17,10 +17,13 @@
     return salary as template literal
 */
 
-function bonusTime(salary, bonus) {
-  if (bonus) salary *= 10;
-  return `£${salary}`;
-}
+// function bonusTime(salary, bonus) {
+//   if (bonus) salary *= 10;
+//   return `£${salary}`;
+// }
+
+// Wildin'
+const bonusTime = (salary, bonus) => `£${bonus ? salary * 10 : salary}`;
 
 // Test cases
 console.log(bonusTime(10000, true)); // '£1000000'

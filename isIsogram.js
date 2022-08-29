@@ -11,8 +11,8 @@
   Returns: Boolean, true if string has no repeating letters irrespective of case
   Examples:
     'Dermatoglyphics' == true
-    'aba' == false
-    'moOse' == false
+    'aba' returns false
+    'moOse' returns false
   Pseudocode:
     Convert string to lowercase
     Create set from string
