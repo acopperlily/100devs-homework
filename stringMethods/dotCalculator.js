@@ -32,7 +32,7 @@
     split parameter along spaces
     use conditional or switch statement to determine operator
     calculate dots by using length
-    convert that number into number of dots
+    convert that number into number of dots using repeat method
 */
 
 function dotCalculator(equation) {
