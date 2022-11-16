@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.test {
+  background-color: rgba(20, 0, 40, 0.5);
+  width: 80%;
+  height: 100vh;
+}
+
+p, span {
+  color: #fa12e3;
+}
+
+@media screen and (min-width) {
+  h1 {
+    font-size: 2rem;
+  }
+}
